@@ -21,7 +21,7 @@ const Project = () => {
                             <img src={portfolioImage} alt="My Portfolio" />
                             <h2>My Portfolio</h2>
                             <div className="project-more-info">
-                                <a href="https://mayanksri02.github.io/MayankPortfolio/">View Project</a>
+                                <a href="https://portfolio-rc7t.vercel.app/">View Project</a>
                             </div>
                         </div>
                         <div className="project-card">
