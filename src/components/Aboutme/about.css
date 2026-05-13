@@ -1,0 +1,240 @@
+:root {
+    --primary-color: #0bcdb9;
+    --primary-dark: #000000;
+    --text-color-dark: #ffffff;
+    --hover-color: #f4f4f4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.5;
+}
+
+.about-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primary-color, #0cf0d9);
+    letter-spacing: 1px;
+}
+
+.about-container {
+    padding: 4rem 6rem;
+    gap: 2rem;
+    margin-top: 6rem;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-dark);
+    color: var(--text-color-dark);
+    transition: padding 0.3s ease;
+}
+
+.image-about {
+    position: relative;
+    flex: 1;
+}
+
+.image-about img {
+    margin: 0;
+    border-radius: 12px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.image-about img:hover {
+    transform: scale(1.05) rotate(2deg);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.quote-icon {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.about-content {
+    flex: 2;
+    padding: 2rem;
+    background-color: transparent;
+    color: var(--text-color-dark);
+    border-radius: 12px;
+    animation: fadeIn 2s ease forwards;
+    text-align: left;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color-dark);
+}
+
+.tech {
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.tech-item ul {
+    list-style-type: disc;
+}
+
+.tech-item li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.button {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.btn-download {
+    text-decoration: none;
+    padding: 0.75rem 2rem;
+    background-color: var(--primary-color);
+    color: black;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+}
+
+.btn-download:hover{
+    background-color: var(--hover-color);
+    color: var(--primary-dark);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about-container {
+        padding: 3rem 4rem;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-content {
+        padding: 2rem;
+        width: 100%;
+    }
+
+    .image-about img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .quote-icon {
+        top: 8%;
+        left: 8%;
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-container {
+        padding: 2rem 2rem;
+    }
+
+    .about-content {
+        padding: 1.5rem;
+        width: 100%;
+    }
+
+    .about-content p {
+        font-size: 1rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .tech-item li {
+        font-size: 1rem;
+    }
+
+    .btn-download {
+        font-size: 1rem;
+    }
+
+    .image-about {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-about img {
+        width: 70%;
+    }
+
+    .quote-icon {
+        top: 5%;
+        left: 5%;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-container {
+        padding: 1.5rem 1rem;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-content {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .about-content p {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+
+    .tech-item li {
+        font-size: 0.9rem;
+    }
+
+    .btn-download, .btn-talk {
+        font-size: 0.9rem;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .image-about {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-about img {
+        width: 100%;
+    }
+
+    .quote-icon {
+        top: 3%;
+        left: 3%;
+        font-size: 1.8rem;
+    }
+}
