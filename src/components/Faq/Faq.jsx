@@ -33,7 +33,7 @@ const Faq=()=>{
             answer: 'I mainly work with the MERN stack (MongoDB, Express, React, Node.js) along with HTML, CSS, and JavaScript. I also have an understanding of the fundamentals of Cloud Computing, which helps me stay aware of how modern applications use cloud-based solutions.'
         },
         {
-            question: 'What are your hobies and interests?',
+            question: 'What are your hobbies and interests?',
             answer: 'In my leisure time, I enjoy reading books, singing, and dancing. Reading helps me gain new perspectives and stay focused, while singing and dancing allow me to express creativity, boost confidence, and maintain a positive balance between work and personal life.'
         },
         {
