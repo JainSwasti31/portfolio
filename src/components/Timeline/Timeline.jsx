@@ -9,7 +9,7 @@ const Timeline=()=>{
                     <div className="content">
                         <h2>High School</h2>
                         <h3>Year of Passing: 2021</h3>
-                        <p>Pursued class 10th frm The S.D. Public School, Muzaffarnagar (UP) and secured 97.4%.</p>
+                        <p>Pursued class 10th from The S.D. Public School, Muzaffarnagar (UP) and secured 97.4%.</p>
                     </div>
                 </div>
                 <div className="timeline-container right">
