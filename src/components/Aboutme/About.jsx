@@ -1,7 +1,7 @@
 import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AboutPhoto from "../../assets/AboutPhoto.jpeg";
-import resume from "../../assets/Swasti_Jain_Resume (2).pdf";
+import resume from "../../assets/Swasti_Jain_Resume (3).pdf";
 import "./about.css";
 
 const About = () => {
