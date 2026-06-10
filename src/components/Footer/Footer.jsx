@@ -29,18 +29,13 @@ const Footer = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/swasti31jain" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/swastijain3112" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                                 <FontAwesomeIcon icon={faLinkedinIn} />
                             </a>
                         </li>
                         <li>
                             <a href="https://www.instagram.com/jain_swastii.31?igsh=MTl4cW1na2p4cTA0dQ==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                                 <FontAwesomeIcon icon={faInstagram} />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://wa.me/qr/HXHGMMLGWVTVI1" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
-                                <FontAwesomeIcon icon={faWhatsapp} />
                             </a>
                         </li>
                     </ul>
