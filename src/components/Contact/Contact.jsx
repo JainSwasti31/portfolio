@@ -27,7 +27,7 @@ const Contact=()=>{
     }
 
     return (
-        <div className='contact-section'>
+        <div className='contact-section' id="contact">
             <p className='contact-title'>Contact Me</p>
 
             <div className='contact-container'>
@@ -41,8 +41,8 @@ const Contact=()=>{
                             required
                         />
                         <input 
-                            type="text"
-                            id='lname'
+                            type="email"
+                            id='user_email'
                             name='user_email'
                             placeholder='Enter your email id...'
                             required

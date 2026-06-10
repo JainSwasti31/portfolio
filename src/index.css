@@ -1,8 +1,62 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --primary: #0cf0d9;
+  --primary-dim: rgba(12, 240, 217, 0.15);
+  --primary-dark: #000000;
+  --surface: #111111;
+  --surface-2: #1a1a1a;
+  --surface-3: #242424;
+  --text: #ffffff;
+  --text-muted: #aaaaaa;
+  --border: rgba(12, 240, 217, 0.2);
+  --radius: 12px;
+  --section-gap: 7rem;
+}
+
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: var(--primary-dark);
+  color: var(--text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Shared section title style used across all sections */
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--primary);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  position: relative;
+  display: block;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: var(--primary);
+  border-radius: 2px;
+}
+
+section, .section-wrapper {
+  padding-top: var(--section-gap);
 }

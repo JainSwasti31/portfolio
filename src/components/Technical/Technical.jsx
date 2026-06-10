@@ -4,8 +4,8 @@ import "./technical.css";
 
 const Technical = () => {
     return (
-        <div className="technical">
-            <p className="technical-title">Technical Knowledge</p>
+        <div className="technical" id="technical">
+            <p className="section-title">Technical Skills</p>
             <div className="technical-content">
                 <div className="technical-box">
                     <h3>Web Development</h3>
