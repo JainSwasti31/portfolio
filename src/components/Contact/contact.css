@@ -75,6 +75,19 @@
     transform: translateY(-2px);
 }
 
+.contact-form input[type="submit"]:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.form-error {
+    margin-top: 0.75rem;
+    color: #ff6b6b;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
 /* Info column */
 .contact-info-column {
     display: flex;
