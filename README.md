@@ -6,7 +6,7 @@ A personal portfolio website built with **React + Vite**, showcasing projects, s
 
 ## Live Demo
 
-> Deploy link here once hosted (e.g. Vercel / Netlify)
+> [Deploy link here once hosted (e.g. Vercel / Netlify)](https://portfolio-rc7t.vercel.app/)
 
 ---
 
